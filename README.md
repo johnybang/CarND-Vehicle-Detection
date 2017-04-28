@@ -1,5 +1,6 @@
-##Writeup Template
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+##Vehicle Detection
+John Bang - 4/28/17
+###As a part of the Udacity Self Driving Car Engineer Nanodegree program, we use computer vision and supervised machine learning to detect the presence and location of vehicles on the road from the perspective of a moving car.
 
 ---
 
