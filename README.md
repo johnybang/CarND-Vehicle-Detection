@@ -55,7 +55,7 @@ Since it showed top results in my parameter sweep, I ultimately used a concatena
 
 ####2. Explain how you settled on your final choice of HOG parameters.
 
-Using `itertools.product()`, I tried various combinations of parameters on a class-balanced 2250 sample subset of the full dataset over the course of a multi-hour automated test. I chose the best outcome sorted by test accuracy, prediction speed, and training speed, in that order.  Admittedly, the permutations at the top of the list have arguably statistically insignificant differences that would be further resolvable with larger dataset testing in the future. Here are the top 20 results (the full table is in the appendix at the end of this document). I used the first parameter set in the list.
+Using `itertools.product()`, I tried various combinations of parameters on a class-balanced 2250 sample subset of the full dataset over the course of a multi-hour automated test. I chose the best outcome sorted by test accuracy, prediction speed, and training speed, in that order.  Here are the top 20 results (the full table is in the appendix at the end of this document). I used the first parameter set in the list.
 
 |   cell\_per_block | colorspace   | hog_channel   |   n_predict |   nfeatures |   orient |   pix\_per_cell |   predict_secs |   test_accy |   train_secs |
 |-----------------:|:-------------|:--------------|------------:|------------:|---------:|---------------:|---------------:|------------:|-------------:|
